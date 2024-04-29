@@ -17,24 +17,24 @@ export const getChainId = memoize((chainName: string) => {
 })
 
 export const kakarotTestnet = {
-  id: 78717,
+  id: 1802203764,
   name: 'Kakarot Testnet',
   network: 'blockspot',
   nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
   rpcUrls: {
     default: {
-      http: ['https://test-rpc.blockspot.tech/'],
-      webSocket: ['wss://test-rpc.blockspot.tech/ws'],
+      http: ['https://sepolia-rpc.kakarot.org'],
+      webSocket: ['wss://sepolia-rpc.kakarot.org/ws'],
     },
     public: {
-      http: ['https://test-rpc.blockspot.tech/'],
-      webSocket: ['wss://test-rpc.blockspot.tech/ws'],
+      http: ['https://sepolia-rpc.kakarot.org'],
+      webSocket: ['wss://sepolia-rpc.kakarot.org/ws'],
     },
   },
   blockExplorers: {
     default: {
       name: 'Kakarot Testnet',
-      url: 'https://test.blockspotscan.tech/',
+      url: 'https://sepolia-explorer.kakarot.org/',
     },
   },
   contracts: {

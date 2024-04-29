@@ -39,7 +39,7 @@ export const blockspotTestnet = {
   },
   contracts: {
     multicall3: {
-      address: '0x1B9154B6a84C9a34821db83452ddEDDAd745746A',
+      address: '0x55f63EeF16acbe2CfD2Fc03cA8B02a0Aa6904486',
       blockCreated: 125800,
     },
   },

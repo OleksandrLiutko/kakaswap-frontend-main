@@ -66,7 +66,7 @@ export const fetchUserBalances = async ({ account, chainId, provider }: FetchUse
             type: 'function',
           },
         ] as const,
-        address: '0x3bc6175e04D6F77C0098B9B16DDe460aB0EeEb9D', // TODO: Here is multicall address, should extract addresses to a package for multi chain
+        address: '0x0BC979F1aBC8D2E27E1Db349eC35755aF6220A65', // TODO: Here is multicall address, should extract addresses to a package for multi chain
         functionName: 'getEthBalance',
         args: [account as Address] as const,
       } as const,

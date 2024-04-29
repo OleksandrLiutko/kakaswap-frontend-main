@@ -19,7 +19,7 @@ export const getChainId = memoize((chainName: string) => {
 export const kakarotTestnet = {
   id: 1802203764,
   name: 'Kakarot Testnet',
-  network: 'blockspot',
+  network: 'kakarot',
   nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
   rpcUrls: {
     default: {

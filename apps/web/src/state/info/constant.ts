@@ -111,7 +111,7 @@ export const multiChainPaths = {
   [ChainId.LINEA]: '/linea',
   [ChainId.BASE]: '/base',
   [ChainId.OPBNB]: '/opbnb',
-  [ChainId.KAKAROT_TESTNET]: '/blockspot',
+  [ChainId.KAKAROT_TESTNET]: '/kakarot',
 }
 
 export const multiChainQueryClient = {

@@ -18,7 +18,7 @@ export const chainNames: Record<ChainId, string> = {
   [ChainId.BASE]: 'base',
   [ChainId.BASE_TESTNET]: 'baseTestnet',
 
-  [ChainId.KAKAROT_TESTNET]: 'blockspot',
+  [ChainId.KAKAROT_TESTNET]: 'kakarot',
 }
 
 export const chainNameToChainId = Object.entries(chainNames).reduce((acc, [chainId, chainName]) => {

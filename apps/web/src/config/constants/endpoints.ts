@@ -34,7 +34,7 @@ export const BLOCKS_CLIENT_LINEA = 'https://graph-query.linea.build/subgraphs/na
 export const BLOCKS_CLIENT_BASE = 'https://api.studio.thegraph.com/query/48211/base-blocks/version/latest'
 export const BLOCKS_CLIENT_OPBNB = 'https://opbnb-mainnet-graph.nodereal.io/subgraphs/name/pancakeswap/blocks'
 
-export const BLOCKS_CLIENT_BLOCKSPOT = 'https://info.flack.exchange/subgraphs/name/flack/blocks'
+export const BLOCKS_CLIENT_KAKAROT = 'https://info.flack.exchange/subgraphs/name/flack/blocks'
 export const STABLESWAP_SUBGRAPH_CLIENT = 'https://info.flack.exchange/subgraphs/name/flack/exchange-stableswap'
 export const GRAPH_API_NFTMARKET = 'https://api.thegraph.com/subgraphs/name/pancakeswap/nft-market'
 export const GRAPH_HEALTH = 'https://api.thegraph.com/index-node/graphql'
@@ -73,7 +73,7 @@ export const BLOCKS_CLIENT_WITH_CHAIN = {
   [ChainId.BASE]: BLOCKS_CLIENT_BASE,
   [ChainId.OPBNB]: BLOCKS_CLIENT_OPBNB,
 
-  [ChainId.KAKAROT_TESTNET]: BLOCKS_CLIENT_BLOCKSPOT,
+  [ChainId.KAKAROT_TESTNET]: BLOCKS_CLIENT_KAKAROT,
 }
 
 export const ASSET_CDN = 'https://assets-flack.netlify.app'

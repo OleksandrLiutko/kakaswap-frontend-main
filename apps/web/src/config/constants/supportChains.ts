@@ -2,7 +2,7 @@ import { ChainId } from '@pancakeswap/chains'
 import { supportedChainId } from '@pancakeswap/farms'
 
 export const SUPPORT_ONLY_BSC = [ChainId.BSC]
-export const SUPPORT_ONLY_BLOCKSPOT = [ChainId.KAKAROT_TESTNET]
+export const SUPPORT_ONLY_KAKAROT = [ChainId.KAKAROT_TESTNET]
 export const SUPPORT_FARMS = supportedChainId
 export const SUPPORT_BUY_CRYPTO = [
   ChainId.BSC,

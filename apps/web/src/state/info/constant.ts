@@ -5,7 +5,7 @@ import {
   BLOCKS_CLIENT_LINEA,
   BLOCKS_CLIENT_BASE,
   BLOCKS_CLIENT_OPBNB,
-  BLOCKS_CLIENT_BLOCKSPOT,
+  BLOCKS_CLIENT_KAKAROT,
 } from 'config/constants/endpoints'
 import { infoClientETH, infoClient, infoStableSwapClient, v2Clients } from 'utils/graphql'
 import { GraphQLClient } from 'graphql-request'
@@ -75,7 +75,7 @@ export const multiChainBlocksClient: Record<MultiChainNameExtend, string> = {
   LINEA: BLOCKS_CLIENT_LINEA,
   BASE: BLOCKS_CLIENT_BASE,
   OPBNB: BLOCKS_CLIENT_OPBNB,
-  KAKAROT_TESTNET: BLOCKS_CLIENT_BLOCKSPOT,
+  KAKAROT_TESTNET: BLOCKS_CLIENT_KAKAROT,
 }
 
 export const multiChainStartTime = {

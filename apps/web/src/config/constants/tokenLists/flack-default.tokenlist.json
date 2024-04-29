@@ -20,7 +20,7 @@
     },
     {
       "name": "USD Coin",
-      "address": "0x5775cbc16b43c249d2e28e6a751e40bc29f48a2b",
+      "address": "0x5bD8f61883392A1548764cb71bF00A0d4dA84FaA",
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 1802203764,
@@ -28,7 +28,7 @@
     },
     {
       "name": "Tether USD",
-      "address": "0x1381851900a4b43397E5DF7f2e90eC5Be04fcB3A",
+      "address": "0xBacF9fB93992747271691B170CB8aE7c6F0342C2",
       "symbol": "USDT",
       "decimals": 18,
       "chainId": 1802203764,
@@ -37,7 +37,7 @@
     {
       "name": "Flack Token",
       "symbol": "Flack",
-      "address": "0xAc0Ff6fa6e90c43C2249dC590741Ab5eF90d2e3b",
+      "address": "0xc797792140828645dc6b1bF7700BF3e3907340B1",
       "chainId": 1802203764,
       "decimals": 18,
       "logoURI": "https://tokens-flack.netlify.app//images/symbol/flack.png"

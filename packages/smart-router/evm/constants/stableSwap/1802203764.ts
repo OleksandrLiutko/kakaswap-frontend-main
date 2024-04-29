@@ -6,7 +6,7 @@ import { StableSwapPool } from './types'
 
 const mockUSDT = new ERC20Token(
   ChainId.KAKAROT_TESTNET,
-  '0x1381851900a4b43397E5DF7f2e90eC5Be04fcB3A',
+  '0xBacF9fB93992747271691B170CB8aE7c6F0342C2',
   18,
   'USDT',
   'MOCK Token',

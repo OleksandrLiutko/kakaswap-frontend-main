@@ -1,6 +1,6 @@
 import { GraphQLClient } from 'graphql-request'
 
-export const FLACK_ADDRESS: `0x${string}` = '0xAc0Ff6fa6e90c43C2249dC590741Ab5eF90d2e3b'
+export const FLACK_ADDRESS: `0x${string}` = '0xc797792140828645dc6b1bF7700BF3e3907340B1'
 export const XFLACK_ADDRESS: `0x${string}` = '0x93f35d7BEe4d5Dd4d87d7C7BE2683B22B6ef3f0B'
 export const FLACK_MASTER: `0x${string}` = '0xA1064c72FbDa47bdd50bCB686c7e7CA3AF11A5b8'
 export const NFT_POOL_FACTORY_ADDRESS: `0x${string}` = '0x178Db3a19807d513b06A97be13f15ceE803DFD1f'

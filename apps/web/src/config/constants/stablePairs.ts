@@ -4,13 +4,13 @@ export const STABLE_PAIRS = [
     router: '0xcbbd01247c2b93f3f66f0723e40d135913a397fa',
     name: 'USDT-USDC',
     token0: {
-      id: '0x1381851900a4b43397e5df7f2e90ec5be04fcb3a',
+      id: '0xBacF9fB93992747271691B170CB8aE7c6F0342C2',
       name: 'Tether USD',
       symbol: 'USDT',
       decimals: '18',
     },
     token1: {
-      id: '0x5775cbc16b43c249d2e28e6a751e40bc29f48a2b',
+      id: '0x5bD8f61883392A1548764cb71bF00A0d4dA84FaA',
       symbol: 'USDC',
       name: 'USD Coin',
       decimals: '6',

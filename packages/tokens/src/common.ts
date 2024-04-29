@@ -3,7 +3,7 @@ import { ChainId } from '@pancakeswap/chains'
 
 export const FLACK_TESTNET = new ERC20Token(
   ChainId.KAKAROT_TESTNET,
-  '0xAc0Ff6fa6e90c43C2249dC590741Ab5eF90d2e3b',
+  '0xc797792140828645dc6b1bF7700BF3e3907340B1',
   18,
   'FLACK',
   'FLACK Token',
@@ -317,7 +317,7 @@ export const USDC = {
 
   [ChainId.KAKAROT_TESTNET]: new ERC20Token(
     ChainId.KAKAROT_TESTNET,
-    '0x5775cbc16b43c249d2e28e6a751e40bc29f48a2b',
+    '0x5bD8f61883392A1548764cb71bF00A0d4dA84FaA',
     6,
     'USDC',
     'USD Coin',
@@ -373,7 +373,7 @@ export const USDT = {
 
   [ChainId.KAKAROT_TESTNET]: new ERC20Token(
     ChainId.KAKAROT_TESTNET,
-    '0x1381851900a4b43397E5DF7f2e90eC5Be04fcB3A',
+    '0xBacF9fB93992747271691B170CB8aE7c6F0342C2',
     18,
     'USDT',
     'Tether USD',

@@ -1,0 +1,110 @@
+{
+  "name": "Flack Default List",
+  "timestamp": "2023-11-11T11:45:09Z",
+  "version": {
+    "major": 4,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://flack.exchange/logo.png",
+  "keywords": ["flack", "default"],
+  "tokens": [
+    {
+      "name": "Wrapped Ether",
+      "address": "0x14229c0930C9792B39ECB08028A2784A016935aC",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 78717,
+      "logoURI": "https://tokens-flack.netlify.app//images/symbol/weth.png"
+    },
+    {
+      "name": "USD Coin",
+      "address": "0x5775cbc16b43c249d2e28e6a751e40bc29f48a2b",
+      "symbol": "USDC",
+      "decimals": 6,
+      "chainId": 78717,
+      "logoURI": "https://tokens-flack.netlify.app//images/symbol/usdc.png"
+    },
+    {
+      "name": "Tether USD",
+      "address": "0x1381851900a4b43397E5DF7f2e90eC5Be04fcB3A",
+      "symbol": "USDT",
+      "decimals": 18,
+      "chainId": 78717,
+      "logoURI": "https://tokens-flack.netlify.app//images/symbol/usdt.png"
+    },
+    {
+      "name": "Flack Token",
+      "symbol": "Flack",
+      "address": "0xAc0Ff6fa6e90c43C2249dC590741Ab5eF90d2e3b",
+      "chainId": 78717,
+      "decimals": 18,
+      "logoURI": "https://tokens-flack.netlify.app//images/symbol/flack.png"
+    },
+    {
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.flack.exchange/images/symbol/bnb.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.flack.exchange/images/symbol/busd.png"
+    },
+    {
+      "name": "Ethereum Token",
+      "symbol": "ETH",
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://flack.exchange/images/tokens/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
+    },
+    {
+      "name": "BTCB Token",
+      "symbol": "BTCB",
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.flack.exchange/images/symbol/wbtc.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.flack.exchange/images/symbol/usdt.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://flack.exchange/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0xFa60D973F7642B748046464e165A65B7323b0DEE",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://flack.exchange/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+    {
+      "name": "Test BUSD Token",
+      "symbol": "tBUSD",
+      "address": "0xaB1a4d4f1D656d2450692D237fdD6C7f9146e814",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://tokens.flack.exchange/images/symbol/busd.png"
+    }
+  ]
+}

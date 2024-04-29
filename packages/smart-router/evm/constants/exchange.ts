@@ -85,7 +85,7 @@ export const STABLE_SWAP_INFO_ADDRESS: ChainMap<string> = {
   [ChainId.BASE]: '',
   [ChainId.BASE_TESTNET]: '',
 
-  [ChainId.BLOCKSPOT_TESTNET]: '0xFa37899Ece07756B1c16be60ae4eDdFf59F4d4d6',
+  [ChainId.BLOCKSPOT_TESTNET]: '0x9AAa7fE403F55a8c1648c19d071Fde34Cf8a02b0',
 }
 
 // used to construct intermediary pairs for trading

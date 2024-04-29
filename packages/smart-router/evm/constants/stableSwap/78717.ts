@@ -19,7 +19,7 @@ export const pools: StableSwapPool[] = [
     token: mockUSDT, // coins[0]
     quoteToken: blockspotTokens.usdc, // coins[1]
     stableSwapAddress: '0xcbbd01247c2b93f3f66f0723e40d135913a397fa',
-    infoStableSwapAddress: '0xFa37899Ece07756B1c16be60ae4eDdFf59F4d4d6',
+    infoStableSwapAddress: '0x9AAa7fE403F55a8c1648c19d071Fde34Cf8a02b0',
     stableLpFee: 0.0004,
     stableLpFeeRateOfTotalFee: 0.5,
   },

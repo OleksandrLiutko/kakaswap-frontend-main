@@ -6,7 +6,7 @@ import { ASSET_CDN } from './endpoints'
 export const DEFAULT_META: PageMeta = {
   title: 'Flack',
   description:
-    'Developed on Blockspot, Flack is an immutable, decentralized, community-driven DEX with the goal of revolutionizing liquidity solutions. Our platform provides developers and consumers with deep and simply accessible liquidity by providing stable and effective liquidity settings. Providing "Real Yields" to all participants, Flack hopes to establish a new benchmark as the Liquidity Hub of this ecosystem, being the first of its kind on Blockspot.',
+    'Developed on Kakarot Sepolia, Flack is an immutable, decentralized, community-driven DEX with the goal of revolutionizing liquidity solutions. Our platform provides developers and consumers with deep and simply accessible liquidity by providing stable and effective liquidity settings. Providing "Real Yields" to all participants, Flack hopes to establish a new benchmark as the Liquidity Hub of this ecosystem, being the first of its kind on Kakarot Sepolia.',
   image: `${ASSET_CDN}/web/og/hero.jpg`,
 }
 

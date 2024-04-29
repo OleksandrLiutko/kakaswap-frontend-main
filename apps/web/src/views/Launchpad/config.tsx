@@ -42,7 +42,7 @@ export const LAUNCH_LIST = [
     description: (
       <>
         <p>
-          Developed on Blockspot, Flack is an immutable, decentralized, community-driven DEX with the goal of
+          Developed on Kakarot Sepolia, Flack is an immutable, decentralized, community-driven DEX with the goal of
           revolutionizing liquidity solutions.
         </p>
         <p>
@@ -51,7 +51,7 @@ export const LAUNCH_LIST = [
         </p>
         <p>
           Providing "Real Yields" to all participants, Flack hopes to establish a new benchmark as the Liquidity Hub of
-          this ecosystem, being the first of its kind on Blockspot.
+          this ecosystem, being the first of its kind on Kakarot Sepolia.
         </p>
       </>
     ),

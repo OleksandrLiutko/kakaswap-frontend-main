@@ -16,12 +16,12 @@ export const isStableSwapSupported = (chainId: number | undefined): chainId is S
   return STABLE_SUPPORTED_CHAIN_IDS.includes(chainId)
 }
 
-export const STABLE_SUPPORTED_CHAIN_IDS = [ChainId.BSC, ChainId.BSC_TESTNET, ChainId.BLOCKSPOT_TESTNET] as const
+export const STABLE_SUPPORTED_CHAIN_IDS = [ChainId.BSC, ChainId.BSC_TESTNET, ChainId.KAKAROT_TESTNET] as const
 
 export type StableSupportedChainId = (typeof STABLE_SUPPORTED_CHAIN_IDS)[number]
 
 export const STABLE_POOL_MAP = {
   [ChainId.BSC]: bscPools,
   [ChainId.BSC_TESTNET]: bscTestnetPools,
-  [ChainId.BLOCKSPOT_TESTNET]: blockspotPools,
+  [ChainId.KAKAROT_TESTNET]: blockspotPools,
 } satisfies StableSwapPoolMap<StableSupportedChainId>

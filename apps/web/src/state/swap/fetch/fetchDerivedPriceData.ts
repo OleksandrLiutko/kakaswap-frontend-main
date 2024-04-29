@@ -67,8 +67,8 @@ const SWAP_INFO_BY_CHAIN = {
     v3: V3_SUBGRAPH_URLS[ChainId.BASE_TESTNET],
   },
 
-  [ChainId.BLOCKSPOT_TESTNET]: {
-    v3: V3_SUBGRAPH_URLS[ChainId.BLOCKSPOT_TESTNET],
+  [ChainId.KAKAROT_TESTNET]: {
+    v3: V3_SUBGRAPH_URLS[ChainId.KAKAROT_TESTNET],
   },
 } satisfies Record<ChainId, Partial<ProtocolEndpoint>>
 

@@ -12,7 +12,7 @@ const mapping = {
   [ChainId.ARBITRUM_ONE]: 'arbitrum',
   [ChainId.LINEA]: 'linea',
 
-  [ChainId.BLOCKSPOT_TESTNET]: 'blockspot',
+  [ChainId.KAKAROT_TESTNET]: 'blockspot',
 }
 
 const getTokenLogoURL = memoize(

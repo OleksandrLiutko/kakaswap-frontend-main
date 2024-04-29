@@ -15,12 +15,12 @@ export const useDomainNameForAddress = (address: `0x${string}` | string, fetchDa
   const { data: ensName, isLoading: isEnsLoading } = useEnsName({
     address: address as Address,
     chainId: chainId === ChainId.GOERLI ? ChainId.GOERLI : ChainId.ETHEREUM,
-    enabled: chainId !== ChainId.BLOCKSPOT_TESTNET,
+    enabled: chainId !== ChainId.KAKAROT_TESTNET,
   })
   const { data: ensAvatar, isLoading: isEnsAvatarLoading } = useEnsAvatar({
     name: ensName,
     chainId: chainId === ChainId.GOERLI ? ChainId.GOERLI : ChainId.ETHEREUM,
-    enabled: chainId !== ChainId.BLOCKSPOT_TESTNET,
+    enabled: chainId !== ChainId.KAKAROT_TESTNET,
   })
 
   return useMemo(() => {

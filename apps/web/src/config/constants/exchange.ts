@@ -47,7 +47,7 @@ export const CHAIN_REFRESH_TIME = {
   [ChainId.OPBNB_TESTNET]: 6_000,
   [ChainId.BASE]: 6_000,
   [ChainId.BASE_TESTNET]: 6_000,
-  [ChainId.BLOCKSPOT_TESTNET]: 6_000,
+  [ChainId.KAKAROT_TESTNET]: 6_000,
 } as const satisfies Record<ChainId, number>
 
 // used for display in the default list when adding liquidity
@@ -74,7 +74,7 @@ export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.BASE]: [baseTokens.usdc, baseTokens.weth],
   [ChainId.BASE_TESTNET]: [baseTestnetTokens.usdc, baseTestnetTokens.weth],
 
-  [ChainId.BLOCKSPOT_TESTNET]: [blockspotTokens.usdt, blockspotTokens.usdc, blockspotTokens.flack],
+  [ChainId.KAKAROT_TESTNET]: [blockspotTokens.usdt, blockspotTokens.usdc, blockspotTokens.flack],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
@@ -96,7 +96,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.BASE]: [baseTokens.usdc, baseTokens.weth],
   [ChainId.BASE_TESTNET]: [baseTestnetTokens.usdc, baseTestnetTokens.weth],
 
-  [ChainId.BLOCKSPOT_TESTNET]: [blockspotTokens.usdc, blockspotTokens.weth],
+  [ChainId.KAKAROT_TESTNET]: [blockspotTokens.usdc, blockspotTokens.weth],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
@@ -125,7 +125,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
   [ChainId.BASE]: [[baseTokens.usdc, baseTokens.weth]],
   [ChainId.BASE_TESTNET]: [[baseTestnetTokens.usdc, baseTestnetTokens.weth]],
 
-  [ChainId.BLOCKSPOT_TESTNET]: [[blockspotTokens.usdc, blockspotTokens.weth]],
+  [ChainId.KAKAROT_TESTNET]: [[blockspotTokens.usdc, blockspotTokens.weth]],
 }
 
 export const BIG_INT_ZERO = 0n

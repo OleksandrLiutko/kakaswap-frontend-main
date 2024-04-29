@@ -13,7 +13,7 @@ export function useTokenPriceBaseStableCoin(token1Address: string) {
   const { chainId } = useActiveChainId()
   const token1AddressWrap =
     token1Address && token1Address.toLowerCase() === XFLACK_ADDRESS.toLocaleLowerCase() ? FLACK_ADDRESS : token1Address
-  const token0Address = STABLE_COIN[chainId ?? ChainId.BLOCKSPOT_TESTNET].address
+  const token0Address = STABLE_COIN[chainId ?? ChainId.KAKAROT_TESTNET].address
   const inputCurrency = useCurrency(token0Address)
   const outputCurrency = useCurrency(token1AddressWrap)
 

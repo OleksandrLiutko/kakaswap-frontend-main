@@ -22,7 +22,7 @@ import { nftPoolFactoryABI } from 'config/abi/nftPoolFactory'
 export const getContract = <TAbi extends Abi | unknown[], TWalletClient extends WalletClient>({
   abi,
   address,
-  chainId = ChainId.BLOCKSPOT_TESTNET,
+  chainId = ChainId.KAKAROT_TESTNET,
   publicClient,
   signer,
 }: {

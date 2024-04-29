@@ -60,7 +60,7 @@ export const INFO_CLIENT_WITH_CHAIN = {
   [ChainId.BASE]: 'https://api.studio.thegraph.com/query/45376/exchange-v2-base/version/latest',
   [ChainId.OPBNB]: 'https://opbnb-mainnet-graph.nodereal.io/subgraphs/name/pancakeswap/exchange-v2',
 
-  [ChainId.BLOCKSPOT_TESTNET]: 'https://info.flack.exchange/subgraphs/name/flack/exchange-positions',
+  [ChainId.KAKAROT_TESTNET]: 'https://info.flack.exchange/subgraphs/name/flack/exchange-positions',
 }
 
 export const BLOCKS_CLIENT_WITH_CHAIN = {
@@ -73,7 +73,7 @@ export const BLOCKS_CLIENT_WITH_CHAIN = {
   [ChainId.BASE]: BLOCKS_CLIENT_BASE,
   [ChainId.OPBNB]: BLOCKS_CLIENT_OPBNB,
 
-  [ChainId.BLOCKSPOT_TESTNET]: BLOCKS_CLIENT_BLOCKSPOT,
+  [ChainId.KAKAROT_TESTNET]: BLOCKS_CLIENT_BLOCKSPOT,
 }
 
 export const ASSET_CDN = 'https://assets-flack.netlify.app'
@@ -97,7 +97,7 @@ export const V3_SUBGRAPH_URLS = {
   [ChainId.OPBNB]: 'https://opbnb-mainnet-graph.nodereal.io/subgraphs/name/pancakeswap/exchange-v3',
   [ChainId.OPBNB_TESTNET]: null,
 
-  [ChainId.BLOCKSPOT_TESTNET]: 'https://info.flack.exchange/subgraphs/name/flack/exchange-v3',
+  [ChainId.KAKAROT_TESTNET]: 'https://info.flack.exchange/subgraphs/name/flack/exchange-v3',
 } satisfies Record<ChainId, string | null>
 
 export const TRADING_REWARD_API = 'https://pancake-trading-fee-rebate-api.pancakeswap.com/api/v1'

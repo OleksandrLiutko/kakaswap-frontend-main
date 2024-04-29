@@ -118,7 +118,7 @@ export const getNetworkDisplay = (chainId: number | undefined): string => {
       return 'Linea Mainnet'
     case ChainId.BASE:
       return 'Base Mainnet'
-    case ChainId.BLOCKSPOT_TESTNET:
+    case ChainId.KAKAROT_TESTNET:
       return 'Blockspot'
     default:
       return ''

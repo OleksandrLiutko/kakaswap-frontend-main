@@ -49,7 +49,7 @@ export const v3Clients = {
   [ChainId.BASE_TESTNET]: new GraphQLClient(V3_SUBGRAPH_URLS[ChainId.BASE_TESTNET]),
   [ChainId.OPBNB]: new GraphQLClient(V3_SUBGRAPH_URLS[ChainId.OPBNB]),
 
-  [ChainId.BLOCKSPOT_TESTNET]: new GraphQLClient(V3_SUBGRAPH_URLS[ChainId.BLOCKSPOT_TESTNET]),
+  [ChainId.KAKAROT_TESTNET]: new GraphQLClient(V3_SUBGRAPH_URLS[ChainId.KAKAROT_TESTNET]),
 }
 
 export const v3InfoClients = { ...v3Clients, [ChainId.BSC]: new GraphQLClient(V3_BSC_INFO_CLIENT) }
@@ -66,7 +66,7 @@ export const v2Clients = {
   [ChainId.ARBITRUM_ONE]: new GraphQLClient(INFO_CLIENT_WITH_CHAIN[ChainId.ARBITRUM_ONE]),
   [ChainId.OPBNB]: new GraphQLClient(INFO_CLIENT_WITH_CHAIN[ChainId.OPBNB]),
 
-  [ChainId.BLOCKSPOT_TESTNET]: new GraphQLClient(INFO_CLIENT_WITH_CHAIN[ChainId.BLOCKSPOT_TESTNET]),
+  [ChainId.KAKAROT_TESTNET]: new GraphQLClient(INFO_CLIENT_WITH_CHAIN[ChainId.KAKAROT_TESTNET]),
 }
 
 export const infoStableSwapClient = new GraphQLClient(STABLESWAP_SUBGRAPH_CLIENT)

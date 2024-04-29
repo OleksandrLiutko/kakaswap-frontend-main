@@ -68,5 +68,5 @@ export const BATCH_MULTICALL_CONFIGS: ChainMap<BatchMulticallConfigs> = {
   [ChainId.OPBNB]: DEFAULT,
   [ChainId.OPBNB_TESTNET]: DEFAULT,
 
-  [ChainId.BLOCKSPOT_TESTNET]: DEFAULT,
+  [ChainId.KAKAROT_TESTNET]: DEFAULT,
 }

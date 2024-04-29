@@ -64,7 +64,7 @@ export const SUBGRAPH_START_BLOCK = {
   [ChainId.BASE]: 2912007,
   [ChainId.OPBNB]: 1721753,
 
-  [ChainId.BLOCKSPOT_TESTNET]: 51529,
+  [ChainId.KAKAROT_TESTNET]: 51529,
 }
 
 export const NODE_REAL_ADDRESS_LIMIT = 50

@@ -51,7 +51,7 @@ export function UnsupportedNetworkModal({ pageSupportedChains }: { pageSupported
               if (supportedMainnetChains.map((c) => c.id).includes(chainId)) {
                 switchNetworkAsync(chainId)
               } else {
-                switchNetworkAsync(ChainId.BLOCKSPOT_TESTNET)
+                switchNetworkAsync(ChainId.KAKAROT_TESTNET)
               }
             }}
             mt={5}
@@ -63,7 +63,7 @@ export function UnsupportedNetworkModal({ pageSupportedChains }: { pageSupported
               mt={5}
               handleClick={() =>
                 logout().then(() => {
-                  switchNetworkLocal(ChainId.BLOCKSPOT_TESTNET)
+                  switchNetworkLocal(ChainId.KAKAROT_TESTNET)
                 })
               }
             >

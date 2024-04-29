@@ -32,7 +32,7 @@ export type MultiChainName =
   | 'LINEA'
   | 'BASE'
   | 'OPBNB'
-  | 'BLOCKSPOT_TESTNET'
+  | 'KAKAROT_TESTNET'
 
 export type MultiChainNameExtend = MultiChainName | 'BSC_TESTNET' | 'ZKSYNC_TESTNET'
 
@@ -45,7 +45,7 @@ export const multiChainName: Record<number | string, MultiChainNameExtend> = {
   [ChainId.LINEA]: 'LINEA',
   [ChainId.BASE]: 'BASE',
   [ChainId.OPBNB]: 'OPBNB',
-  [ChainId.BLOCKSPOT_TESTNET]: 'BLOCKSPOT_TESTNET',
+  [ChainId.KAKAROT_TESTNET]: 'KAKAROT_TESTNET',
 }
 
 export const multiChainShortName: Record<number, string> = {
@@ -61,7 +61,7 @@ export const multiChainQueryMainToken: Record<MultiChainName, string> = {
   LINEA: 'ETH',
   BASE: 'ETH',
   OPBNB: 'BNB',
-  BLOCKSPOT_TESTNET: 'ETH',
+  KAKAROT_TESTNET: 'ETH',
 }
 
 export const multiChainBlocksClient: Record<MultiChainNameExtend, string> = {
@@ -75,7 +75,7 @@ export const multiChainBlocksClient: Record<MultiChainNameExtend, string> = {
   LINEA: BLOCKS_CLIENT_LINEA,
   BASE: BLOCKS_CLIENT_BASE,
   OPBNB: BLOCKS_CLIENT_OPBNB,
-  BLOCKSPOT_TESTNET: BLOCKS_CLIENT_BLOCKSPOT,
+  KAKAROT_TESTNET: BLOCKS_CLIENT_BLOCKSPOT,
 }
 
 export const multiChainStartTime = {
@@ -87,7 +87,7 @@ export const multiChainStartTime = {
   LINEA: 1692878400,
   BASE: 1693483200,
   OPBNB: 1695945600,
-  BLOCKSPOT_TESTNET: 1739317,
+  KAKAROT_TESTNET: 1739317,
 }
 
 export const multiChainId: Record<MultiChainName, ChainId> = {
@@ -99,7 +99,7 @@ export const multiChainId: Record<MultiChainName, ChainId> = {
   LINEA: ChainId.LINEA,
   BASE: ChainId.BASE,
   OPBNB: ChainId.OPBNB,
-  BLOCKSPOT_TESTNET: ChainId.BLOCKSPOT_TESTNET,
+  KAKAROT_TESTNET: ChainId.KAKAROT_TESTNET,
 }
 
 export const multiChainPaths = {
@@ -111,7 +111,7 @@ export const multiChainPaths = {
   [ChainId.LINEA]: '/linea',
   [ChainId.BASE]: '/base',
   [ChainId.OPBNB]: '/opbnb',
-  [ChainId.BLOCKSPOT_TESTNET]: '/blockspot',
+  [ChainId.KAKAROT_TESTNET]: '/blockspot',
 }
 
 export const multiChainQueryClient = {
@@ -123,7 +123,7 @@ export const multiChainQueryClient = {
   LINEA: v2Clients[ChainId.LINEA],
   BASE: v2Clients[ChainId.BASE],
   OPBNB: v2Clients[ChainId.OPBNB],
-  BLOCKSPOT_TESTNET: v2Clients[ChainId.BLOCKSPOT_TESTNET],
+  KAKAROT_TESTNET: v2Clients[ChainId.KAKAROT_TESTNET],
 }
 
 export const multiChainScan: Record<MultiChainName, string> = {
@@ -135,7 +135,7 @@ export const multiChainScan: Record<MultiChainName, string> = {
   LINEA: linea.blockExplorers.default.name,
   BASE: base.blockExplorers.default.name,
   OPBNB: opBNB.blockExplorers.default.name,
-  BLOCKSPOT_TESTNET: kakarotTestnet.blockExplorers.default.name,
+  KAKAROT_TESTNET: kakarotTestnet.blockExplorers.default.name,
 }
 
 export const multiChainTokenBlackList: Record<MultiChainName, string[]> = mapValues(
@@ -148,7 +148,7 @@ export const multiChainTokenBlackList: Record<MultiChainName, string[]> = mapVal
     LINEA: ['0x'],
     BASE: ['0x'],
     OPBNB: ['0x'],
-    BLOCKSPOT_TESTNET: [],
+    KAKAROT_TESTNET: [],
   },
   (val) => val.map((address) => address.toLowerCase()),
 )
@@ -163,7 +163,7 @@ export const multiChainTokenWhiteList: Record<MultiChainName, string[]> = mapVal
     LINEA: [],
     BASE: [],
     OPBNB: [],
-    BLOCKSPOT_TESTNET: [],
+    KAKAROT_TESTNET: [],
   },
   (val) => val.map((address) => address.toLowerCase()),
 )
@@ -187,4 +187,4 @@ export const subgraphTokenSymbol = {
 
 export const checkIsStableSwap = () => window.location.href.includes('stableSwap')
 
-export const ChainLinkSupportChains = [ChainId.BSC, ChainId.BSC_TESTNET, ChainId.BLOCKSPOT_TESTNET]
+export const ChainLinkSupportChains = [ChainId.BSC, ChainId.BSC_TESTNET, ChainId.KAKAROT_TESTNET]

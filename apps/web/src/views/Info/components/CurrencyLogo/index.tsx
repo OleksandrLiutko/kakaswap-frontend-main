@@ -54,7 +54,7 @@ export const DoubleCurrencyLogo: React.FC<React.PropsWithChildren<DoubleCurrency
   address0,
   address1,
   size = 16,
-  chainName = 'BLOCKSPOT_TESTNET',
+  chainName = 'KAKAROT_TESTNET',
 }) => {
   return (
     <DoubleCurrencyWrapper>

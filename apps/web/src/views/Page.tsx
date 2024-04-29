@@ -21,7 +21,7 @@ const Page: React.FC<
 }) => {
   const { t } = useTranslation()
   const { chainId } = useActiveChainId()
-  const isScroll = chainId === ChainId.BLOCKSPOT_TESTNET
+  const isScroll = chainId === ChainId.KAKAROT_TESTNET
   const externalText = isScroll ? t('Bridge assets to Scroll Chain') : ''
   const externalLinkUrl = isScroll ? 'https://bridge.flack.exchange/' : ''
 

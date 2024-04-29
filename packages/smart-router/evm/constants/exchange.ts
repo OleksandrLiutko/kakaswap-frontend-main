@@ -43,7 +43,7 @@ export const SMART_ROUTER_ADDRESSES = {
   [ChainId.BASE]: '0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86',
   [ChainId.BASE_TESTNET]: '0xDDC44b8507B4Ca992fB60F0ECdF5651A87668509',
 
-  [ChainId.BLOCKSPOT_TESTNET]: '0x59e478fE05CBa9ACF5ed2D4dF8deA8531509d02D',
+  [ChainId.KAKAROT_TESTNET]: '0x59e478fE05CBa9ACF5ed2D4dF8deA8531509d02D',
 } as const satisfies Record<ChainId, string>
 
 export const V2_ROUTER_ADDRESS: ChainMap<string> = {
@@ -64,7 +64,7 @@ export const V2_ROUTER_ADDRESS: ChainMap<string> = {
   [ChainId.BASE]: '0x8cFe327CEc66d1C090Dd72bd0FF11d690C33a2Eb',
   [ChainId.BASE_TESTNET]: '0xC259d1D3476558630d83b0b60c105ae958382792',
 
-  [ChainId.BLOCKSPOT_TESTNET]: '0x8054f934D7f41143E1C5E868FD663A4D71a51BAF',
+  [ChainId.KAKAROT_TESTNET]: '0x8054f934D7f41143E1C5E868FD663A4D71a51BAF',
 }
 
 export const STABLE_SWAP_INFO_ADDRESS: ChainMap<string> = {
@@ -85,7 +85,7 @@ export const STABLE_SWAP_INFO_ADDRESS: ChainMap<string> = {
   [ChainId.BASE]: '',
   [ChainId.BASE_TESTNET]: '',
 
-  [ChainId.BLOCKSPOT_TESTNET]: '0x9AAa7fE403F55a8c1648c19d071Fde34Cf8a02b0',
+  [ChainId.KAKAROT_TESTNET]: '0x9AAa7fE403F55a8c1648c19d071Fde34Cf8a02b0',
 }
 
 // used to construct intermediary pairs for trading
@@ -115,7 +115,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.BASE]: [baseTokens.usdc, baseTokens.weth],
   [ChainId.BASE_TESTNET]: [baseTestnetTokens.usdc, baseTestnetTokens.weth],
 
-  [ChainId.BLOCKSPOT_TESTNET]: [blockspotTokens.usdt, blockspotTokens.usdc, blockspotTokens.weth],
+  [ChainId.KAKAROT_TESTNET]: [blockspotTokens.usdt, blockspotTokens.usdc, blockspotTokens.weth],
 }
 
 /**

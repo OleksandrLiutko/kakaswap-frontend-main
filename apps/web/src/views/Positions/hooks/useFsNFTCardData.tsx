@@ -60,7 +60,7 @@ export const useFsNFTCardData = ({ fsNft, ethPrice }) => {
 
   const { lpPrice: stableLpPrice } = useStableLpPrice(fsNft.pool.pair)
   const { lpPrice: v2LpPrice } = useLpPrice(
-    fsNft.pool.pair?.token0.id.toLowerCase() === STABLE_COIN[chainId ?? ChainId.BLOCKSPOT_TESTNET].address.toLowerCase()
+    fsNft.pool.pair?.token0.id.toLowerCase() === STABLE_COIN[chainId ?? ChainId.KAKAROT_TESTNET].address.toLowerCase()
       ? fsNft.pool.pair?.token1.id
       : fsNft.pool.pair?.token0.id,
     fsNft.pool.pairAddress,

@@ -38,7 +38,7 @@ export const usdGasTokensByChain = {
   [ChainId.BASE]: [baseTokens.usdc],
   [ChainId.BASE_TESTNET]: [baseTestnetTokens.usdc],
 
-  [ChainId.BLOCKSPOT_TESTNET]: [blockspotTokens.usdc],
+  [ChainId.KAKAROT_TESTNET]: [blockspotTokens.usdc],
 } satisfies Record<ChainId, Token[]>
 
 export * from './v2'

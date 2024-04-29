@@ -156,7 +156,7 @@ export const L2_CHAIN_IDS: ChainId[] = [
   ChainId.BASE_TESTNET,
   ChainId.OPBNB,
   ChainId.OPBNB_TESTNET,
-  ChainId.BLOCKSPOT_TESTNET,
+  ChainId.KAKAROT_TESTNET,
 ]
 
 export const CHAINS = [kakarotTestnet]

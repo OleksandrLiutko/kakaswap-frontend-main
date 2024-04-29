@@ -313,7 +313,7 @@ export const useChainNameByQuery = (): MultiChainName => {
       case 'bsc':
         return 'BSC'
       default:
-        return 'BLOCKSPOT_TESTNET'
+        return 'KAKAROT_TESTNET'
     }
   }, [query])
   return chainName

@@ -5,7 +5,7 @@ import { blockspotTokens } from '@pancakeswap/tokens'
 import { StableSwapPool } from './types'
 
 const mockUSDT = new ERC20Token(
-  ChainId.BLOCKSPOT_TESTNET,
+  ChainId.KAKAROT_TESTNET,
   '0x1381851900a4b43397E5DF7f2e90eC5Be04fcB3A',
   18,
   'USDT',

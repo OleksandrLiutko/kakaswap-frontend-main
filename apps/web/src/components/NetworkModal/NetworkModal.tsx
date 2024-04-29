@@ -28,7 +28,7 @@ export const NetworkModal = ({ pageSupportedChains = SUPPORT_ONLY_BLOCKSPOT }: {
   const [dismissWrongNetwork, setDismissWrongNetwork] = useAtom(hideWrongNetworkModalAtom)
 
   const isScrollOnlyPage = useMemo(() => {
-    return pageSupportedChains?.length === 1 && pageSupportedChains[0] === ChainId.BLOCKSPOT_TESTNET
+    return pageSupportedChains?.length === 1 && pageSupportedChains[0] === ChainId.KAKAROT_TESTNET
   }, [pageSupportedChains])
 
   const isPageNotSupported = useMemo(

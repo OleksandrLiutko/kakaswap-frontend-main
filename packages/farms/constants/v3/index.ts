@@ -28,5 +28,5 @@ export const farmsV3ConfigChainMap: Record<FarmV3SupportedChainId, ComputedFarmC
   [ChainId.BASE]: baseFarms,
   [ChainId.OPBNB_TESTNET]: opBnbTestnetFarms,
 
-  [ChainId.BLOCKSPOT_TESTNET]: [],
+  [ChainId.KAKAROT_TESTNET]: [],
 }

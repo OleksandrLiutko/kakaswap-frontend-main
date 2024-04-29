@@ -6,7 +6,7 @@ export const supportedChainIdV2 = [
   ChainId.BSC,
   ChainId.BSC_TESTNET,
   ChainId.ETHEREUM,
-  ChainId.BLOCKSPOT_TESTNET,
+  ChainId.KAKAROT_TESTNET,
 ] as const
 export const supportedChainIdV3 = [
   ChainId.GOERLI,
@@ -21,7 +21,7 @@ export const supportedChainIdV3 = [
   ChainId.LINEA,
   ChainId.BASE,
   ChainId.OPBNB_TESTNET,
-  ChainId.BLOCKSPOT_TESTNET,
+  ChainId.KAKAROT_TESTNET,
 ] as const
 export const supportedChainId = uniq([...supportedChainIdV2, ...supportedChainIdV3])
 export const bCakeSupportedChainId = [ChainId.BSC] as const
@@ -53,7 +53,7 @@ export const masterChefV3Addresses = {
   [ChainId.BASE]: '0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3',
   [ChainId.OPBNB_TESTNET]: '0x236e713bFF45adb30e25D1c29A887aBCb0Ea7E21',
 
-  [ChainId.BLOCKSPOT_TESTNET]: '0x236e713bFF45adb30e25D1c29A887aBCb0Ea7E21',
+  [ChainId.KAKAROT_TESTNET]: '0x236e713bFF45adb30e25D1c29A887aBCb0Ea7E21',
 } as const satisfies Record<FarmV3SupportedChainId, string>
 
 export const nonBSCVaultAddresses = {

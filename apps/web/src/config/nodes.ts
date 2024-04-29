@@ -74,7 +74,7 @@ export const SERVER_NODES = {
   ],
   [ChainId.BASE_TESTNET]: baseGoerli.rpcUrls.public.http,
 
-  [ChainId.BLOCKSPOT_TESTNET]: kakarotTestnet.rpcUrls.public.http,
+  [ChainId.KAKAROT_TESTNET]: kakarotTestnet.rpcUrls.public.http,
 } satisfies Record<ChainId, readonly string[]>
 
 export const PUBLIC_NODES = {
@@ -131,5 +131,5 @@ export const PUBLIC_NODES = {
   ],
   [ChainId.BASE_TESTNET]: baseGoerli.rpcUrls.public.http,
 
-  [ChainId.BLOCKSPOT_TESTNET]: [...kakarotTestnet.rpcUrls.public.http],
+  [ChainId.KAKAROT_TESTNET]: [...kakarotTestnet.rpcUrls.public.http],
 } satisfies Record<ChainId, readonly string[]>

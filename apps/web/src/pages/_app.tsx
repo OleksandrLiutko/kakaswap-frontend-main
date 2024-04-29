@@ -103,7 +103,7 @@ type NextPageWithLayout = NextPage & {
   mp?: boolean
   /**
    * allow chain per page, empty array bypass chain block modal
-   * @default [ChainId.BLOCKSPOT_TESTNET]
+   * @default [ChainId.KAKAROT_TESTNET]
    * */
   chains?: number[]
   isShowScrollToTopButton?: true

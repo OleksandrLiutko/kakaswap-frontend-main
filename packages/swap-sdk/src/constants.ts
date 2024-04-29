@@ -28,7 +28,7 @@ export const FACTORY_ADDRESS_MAP = {
   [ChainId.BASE]: '0x02a84c1b3BBD7401a5f7fa98a384EBC70bB5749E',
   [ChainId.BASE_TESTNET]: '0x715303D2eF7dA7FFAbF637651D71FD11d41fAf7F',
 
-  [ChainId.BLOCKSPOT_TESTNET]: '0x5A26DD8A6F0C7BfAE37010321E275F141F6de64e',
+  [ChainId.KAKAROT_TESTNET]: '0x5A26DD8A6F0C7BfAE37010321E275F141F6de64e',
 } as const satisfies Record<ChainId, Address>
 
 export const INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
@@ -54,7 +54,7 @@ export const INIT_CODE_HASH_MAP = {
   [ChainId.BASE]: INIT_CODE_HASH_ETH,
   [ChainId.BASE_TESTNET]: '0xa5934690703a592a07e841ca29d5e5c79b5e22ed4749057bb216dc31100be1c0',
 
-  [ChainId.BLOCKSPOT_TESTNET]: BLOCKSPOT_CODE_HASH_ETH, // INIT_CODE_HASH_ETH,
+  [ChainId.KAKAROT_TESTNET]: BLOCKSPOT_CODE_HASH_ETH, // INIT_CODE_HASH_ETH,
 } as const satisfies Record<ChainId, Hash>
 
 export const WETH9 = {
@@ -187,8 +187,8 @@ export const WETH9 = {
     'https://weth.io'
   ),
 
-  [ChainId.BLOCKSPOT_TESTNET]: new ERC20Token(
-    ChainId.BLOCKSPOT_TESTNET,
+  [ChainId.KAKAROT_TESTNET]: new ERC20Token(
+    ChainId.KAKAROT_TESTNET,
     '0x14229c0930C9792B39ECB08028A2784A016935aC',
     18,
     'WETH',
@@ -258,7 +258,7 @@ export const WNATIVE = {
   [ChainId.BASE]: WETH9[ChainId.BASE],
   [ChainId.BASE_TESTNET]: WETH9[ChainId.BASE_TESTNET],
 
-  [ChainId.BLOCKSPOT_TESTNET]: WETH9[ChainId.BLOCKSPOT_TESTNET],
+  [ChainId.KAKAROT_TESTNET]: WETH9[ChainId.KAKAROT_TESTNET],
 } satisfies Record<ChainId, ERC20Token>
 
 const ETHER = { name: 'Ether', symbol: 'ETH', decimals: 18 } as const
@@ -297,7 +297,7 @@ export const NATIVE = {
   },
   [ChainId.BASE]: ETHER,
   [ChainId.BASE_TESTNET]: ETHER,
-  [ChainId.BLOCKSPOT_TESTNET]: ETHER,
+  [ChainId.KAKAROT_TESTNET]: ETHER,
 } satisfies Record<
   ChainId,
   {

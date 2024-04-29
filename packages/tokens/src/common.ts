@@ -2,7 +2,7 @@ import { ERC20Token } from '@pancakeswap/sdk'
 import { ChainId } from '@pancakeswap/chains'
 
 export const FLACK_TESTNET = new ERC20Token(
-  ChainId.BLOCKSPOT_TESTNET,
+  ChainId.KAKAROT_TESTNET,
   '0xAc0Ff6fa6e90c43C2249dC590741Ab5eF90d2e3b',
   18,
   'FLACK',
@@ -11,7 +11,7 @@ export const FLACK_TESTNET = new ERC20Token(
 )
 
 export const DAI_TESTNET = new ERC20Token(
-  ChainId.BLOCKSPOT_TESTNET,
+  ChainId.KAKAROT_TESTNET,
   '0x789c767251c2185310b5f3de9a7e1ab7dc5b4f2e',
   18,
   'DAI',
@@ -20,7 +20,7 @@ export const DAI_TESTNET = new ERC20Token(
 )
 
 export const DAI_MAINNET = new ERC20Token(
-  ChainId.BLOCKSPOT_TESTNET,
+  ChainId.KAKAROT_TESTNET,
   '0x789c767251c2185310b5f3de9a7e1ab7dc5b4f2e',
   18,
   'DAI',
@@ -29,11 +29,11 @@ export const DAI_MAINNET = new ERC20Token(
 )
 
 export const FLACK = {
-  [ChainId.BLOCKSPOT_TESTNET]: FLACK_TESTNET,
+  [ChainId.KAKAROT_TESTNET]: FLACK_TESTNET,
 }
 
 export const DAI = {
-  [ChainId.BLOCKSPOT_TESTNET]: DAI_TESTNET,
+  [ChainId.KAKAROT_TESTNET]: DAI_TESTNET,
 }
 
 export const CAKE_MAINNET = new ERC20Token(
@@ -315,8 +315,8 @@ export const USDC = {
     'USD Coin',
   ),
 
-  [ChainId.BLOCKSPOT_TESTNET]: new ERC20Token(
-    ChainId.BLOCKSPOT_TESTNET,
+  [ChainId.KAKAROT_TESTNET]: new ERC20Token(
+    ChainId.KAKAROT_TESTNET,
     '0x5775cbc16b43c249d2e28e6a751e40bc29f48a2b',
     6,
     'USDC',
@@ -371,8 +371,8 @@ export const USDT = {
   ),
   [ChainId.LINEA]: new ERC20Token(ChainId.LINEA, '0xA219439258ca9da29E9Cc4cE5596924745e12B93', 6, 'USDT', 'Tether USD'),
 
-  [ChainId.BLOCKSPOT_TESTNET]: new ERC20Token(
-    ChainId.BLOCKSPOT_TESTNET,
+  [ChainId.KAKAROT_TESTNET]: new ERC20Token(
+    ChainId.KAKAROT_TESTNET,
     '0x1381851900a4b43397E5DF7f2e90eC5Be04fcB3A',
     18,
     'USDT',
@@ -406,5 +406,5 @@ export const STABLE_COIN = {
   [ChainId.BASE]: USDC[ChainId.BASE],
   [ChainId.BASE_TESTNET]: USDC[ChainId.BASE_TESTNET],
 
-  [ChainId.BLOCKSPOT_TESTNET]: USDT[ChainId.BLOCKSPOT_TESTNET],
+  [ChainId.KAKAROT_TESTNET]: USDT[ChainId.KAKAROT_TESTNET],
 } satisfies Record<ChainId, ERC20Token>

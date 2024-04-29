@@ -80,7 +80,7 @@ export const NewPositionModal: React.FC<React.PropsWithChildren<NewPositionModal
   const { lpPrice: v2LpPrice } = useLpPrice(
     lpToken !== undefined && pairData && pairData.length > 0
       ? pairData[lpToken === undefined ? 0 : lpToken].token0.id ===
-        STABLE_COIN[chainId ?? ChainId.BLOCKSPOT_TESTNET].address.toLowerCase()
+        STABLE_COIN[chainId ?? ChainId.KAKAROT_TESTNET].address.toLowerCase()
         ? pairData[lpToken === undefined ? 0 : lpToken].token1.id
         : pairData[lpToken === undefined ? 0 : lpToken].token0.id
       : '',

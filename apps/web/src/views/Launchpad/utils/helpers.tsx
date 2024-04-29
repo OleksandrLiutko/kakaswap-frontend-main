@@ -7,6 +7,6 @@ export const getSymbol = (symbol: string | undefined): string => {
 }
 
 export const isEthSale = (saleToken: string): boolean => {
-  if (saleToken.toLocaleLowerCase() === WETH9[ChainId.BLOCKSPOT_TESTNET].address.toLocaleLowerCase()) return true
+  if (saleToken.toLocaleLowerCase() === WETH9[ChainId.KAKAROT_TESTNET].address.toLocaleLowerCase()) return true
   return false
 }

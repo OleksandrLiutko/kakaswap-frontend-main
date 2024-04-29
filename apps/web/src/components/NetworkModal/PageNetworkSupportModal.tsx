@@ -73,8 +73,8 @@ export function PageNetworkSupportModal() {
             isLoading={isLoading}
             onClick={() =>
               isWrongNetwork
-                ? switchNetworkLocal(ChainId.BLOCKSPOT_TESTNET)
-                : switchNetworkAsync(ChainId.BLOCKSPOT_TESTNET)
+                ? switchNetworkLocal(ChainId.KAKAROT_TESTNET)
+                : switchNetworkAsync(ChainId.KAKAROT_TESTNET)
             }
           >
             {t('Switch to %chain%', { chain: 'Blockspot' })}

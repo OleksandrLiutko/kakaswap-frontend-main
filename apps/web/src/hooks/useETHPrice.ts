@@ -8,7 +8,7 @@ import { formatUnits } from 'viem'
 import { useContractReads } from 'wagmi'
 
 export const getEthPrice = async () => {
-  const data = await publicClient({ chainId: ChainId.BLOCKSPOT_TESTNET }).readContract({
+  const data = await publicClient({ chainId: ChainId.KAKAROT_TESTNET }).readContract({
     abi: chainlinkOracleABI,
     address: ETH_PRICE_FEED,
     functionName: 'latestAnswer',

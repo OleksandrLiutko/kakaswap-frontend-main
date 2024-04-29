@@ -74,7 +74,7 @@ export const HyperPoolCardRow = ({ poolData, onClick }: HyperPoolCardRowProps) =
 
   const { lpPrice: stableLpPrice } = useStableLpPrice(poolData?.pair)
   const { lpPrice: v2LpPrice } = useLpPrice(
-    poolData.pair.token0.id === STABLE_COIN[chainId ?? ChainId.BLOCKSPOT_TESTNET].address.toLowerCase()
+    poolData.pair.token0.id === STABLE_COIN[chainId ?? ChainId.KAKAROT_TESTNET].address.toLowerCase()
       ? poolData.pair.token1.id
       : poolData.pair.token0.id,
     poolData?.pairAddress,

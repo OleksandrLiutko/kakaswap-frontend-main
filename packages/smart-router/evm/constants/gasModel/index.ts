@@ -17,7 +17,7 @@ import {
   baseTestnetTokens,
   opBnbTokens,
   opBnbTestnetTokens,
-  blockspotTokens,
+  kakarotTokens,
 } from '@pancakeswap/tokens'
 
 export const usdGasTokensByChain = {
@@ -38,7 +38,7 @@ export const usdGasTokensByChain = {
   [ChainId.BASE]: [baseTokens.usdc],
   [ChainId.BASE_TESTNET]: [baseTestnetTokens.usdc],
 
-  [ChainId.KAKAROT_TESTNET]: [blockspotTokens.usdc],
+  [ChainId.KAKAROT_TESTNET]: [kakarotTokens.usdc],
 } satisfies Record<ChainId, Token[]>
 
 export * from './v2'

@@ -2,7 +2,7 @@ import { getAddress } from "viem";
 import memoize from "lodash/memoize";
 import { Token, Currency, NATIVE } from "@pancakeswap/sdk";
 import { ChainId } from "@pancakeswap/chains";
-import { ethereumTokens, bscTokens, blockspotTokens } from "@pancakeswap/tokens";
+import { ethereumTokens, bscTokens, kakarotTokens } from "@pancakeswap/tokens";
 
 const mapping: { [key: number]: string } = {
   [ChainId.BSC]: "smartchain",
@@ -64,7 +64,7 @@ export const getTokenListTokenUrl = (token: Token) =>
 const commonCurrencySymbols = [
   ethereumTokens.usdt,
   ethereumTokens.usdc,
-  blockspotTokens.flack,
+  kakarotTokens.flack,
   bscTokens.cake,
   ethereumTokens.wbtc,
   ethereumTokens.weth,

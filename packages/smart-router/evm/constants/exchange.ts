@@ -19,7 +19,7 @@ import {
   baseTestnetTokens,
   opBnbTokens,
   opBnbTestnetTokens,
-  blockspotTokens,
+  kakarotTokens,
   lineaTokens,
 } from '@pancakeswap/tokens'
 
@@ -115,7 +115,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.BASE]: [baseTokens.usdc, baseTokens.weth],
   [ChainId.BASE_TESTNET]: [baseTestnetTokens.usdc, baseTestnetTokens.weth],
 
-  [ChainId.KAKAROT_TESTNET]: [blockspotTokens.usdt, blockspotTokens.usdc, blockspotTokens.weth],
+  [ChainId.KAKAROT_TESTNET]: [kakarotTokens.usdt, kakarotTokens.usdc, kakarotTokens.weth],
 }
 
 /**

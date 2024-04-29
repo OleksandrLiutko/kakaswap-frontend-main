@@ -18,7 +18,7 @@ import {
   opBnbTestnetTokens,
   baseTokens,
   baseTestnetTokens,
-  blockspotTokens,
+  kakarotTokens,
   lineaTokens,
 } from '@pancakeswap/tokens'
 import { ChainTokenList } from './types'
@@ -74,7 +74,7 @@ export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.BASE]: [baseTokens.usdc, baseTokens.weth],
   [ChainId.BASE_TESTNET]: [baseTestnetTokens.usdc, baseTestnetTokens.weth],
 
-  [ChainId.KAKAROT_TESTNET]: [blockspotTokens.usdt, blockspotTokens.usdc, blockspotTokens.flack],
+  [ChainId.KAKAROT_TESTNET]: [kakarotTokens.usdt, kakarotTokens.usdc, kakarotTokens.flack],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
@@ -96,7 +96,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.BASE]: [baseTokens.usdc, baseTokens.weth],
   [ChainId.BASE_TESTNET]: [baseTestnetTokens.usdc, baseTestnetTokens.weth],
 
-  [ChainId.KAKAROT_TESTNET]: [blockspotTokens.usdc, blockspotTokens.weth],
+  [ChainId.KAKAROT_TESTNET]: [kakarotTokens.usdc, kakarotTokens.weth],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
@@ -125,7 +125,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
   [ChainId.BASE]: [[baseTokens.usdc, baseTokens.weth]],
   [ChainId.BASE_TESTNET]: [[baseTestnetTokens.usdc, baseTestnetTokens.weth]],
 
-  [ChainId.KAKAROT_TESTNET]: [[blockspotTokens.usdc, blockspotTokens.weth]],
+  [ChainId.KAKAROT_TESTNET]: [[kakarotTokens.usdc, kakarotTokens.weth]],
 }
 
 export const BIG_INT_ZERO = 0n

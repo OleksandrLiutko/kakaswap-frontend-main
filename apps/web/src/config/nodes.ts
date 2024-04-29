@@ -10,7 +10,7 @@ import {
   base,
 } from 'wagmi/chains'
 import { getNodeRealUrlV2 } from 'utils/nodeReal'
-import { opbnbTestnet, linea, opbnb, blockspotTestnet } from './chains'
+import { opbnbTestnet, linea, opbnb, kakarotTestnet } from './chains'
 
 const POLYGON_ZKEVM_NODES = [
   'https://f2562de09abc5efbd21eefa083ff5326.zkevm-rpc.com/',
@@ -74,7 +74,7 @@ export const SERVER_NODES = {
   ],
   [ChainId.BASE_TESTNET]: baseGoerli.rpcUrls.public.http,
 
-  [ChainId.BLOCKSPOT_TESTNET]: blockspotTestnet.rpcUrls.public.http,
+  [ChainId.BLOCKSPOT_TESTNET]: kakarotTestnet.rpcUrls.public.http,
 } satisfies Record<ChainId, readonly string[]>
 
 export const PUBLIC_NODES = {
@@ -131,5 +131,5 @@ export const PUBLIC_NODES = {
   ],
   [ChainId.BASE_TESTNET]: baseGoerli.rpcUrls.public.http,
 
-  [ChainId.BLOCKSPOT_TESTNET]: [...blockspotTestnet.rpcUrls.public.http],
+  [ChainId.BLOCKSPOT_TESTNET]: [...kakarotTestnet.rpcUrls.public.http],
 } satisfies Record<ChainId, readonly string[]>

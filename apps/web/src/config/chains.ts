@@ -16,7 +16,7 @@ export const getChainId = memoize((chainName: string) => {
   return CHAIN_QUERY_NAME_TO_ID[chainName.toLowerCase()] ? +CHAIN_QUERY_NAME_TO_ID[chainName.toLowerCase()] : undefined
 })
 
-export const blockspotTestnet = {
+export const kakarotTestnet = {
   id: 78717,
   name: 'BlockSpot Testnet',
   network: 'blockspot',
@@ -159,4 +159,4 @@ export const L2_CHAIN_IDS: ChainId[] = [
   ChainId.BLOCKSPOT_TESTNET,
 ]
 
-export const CHAINS = [blockspotTestnet]
+export const CHAINS = [kakarotTestnet]

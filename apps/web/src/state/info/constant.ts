@@ -20,7 +20,7 @@ import {
   ETH_TOKEN_WHITELIST,
 } from 'config/constants/info'
 import { arbitrum, bsc, mainnet, polygonZkEvm, zkSync, linea, base, opBNB } from 'wagmi/chains'
-import { blockspotTestnet } from 'config/chains'
+import { kakarotTestnet } from 'config/chains'
 import mapValues from 'lodash/mapValues'
 
 export type MultiChainName =
@@ -135,7 +135,7 @@ export const multiChainScan: Record<MultiChainName, string> = {
   LINEA: linea.blockExplorers.default.name,
   BASE: base.blockExplorers.default.name,
   OPBNB: opBNB.blockExplorers.default.name,
-  BLOCKSPOT_TESTNET: blockspotTestnet.blockExplorers.default.name,
+  BLOCKSPOT_TESTNET: kakarotTestnet.blockExplorers.default.name,
 }
 
 export const multiChainTokenBlackList: Record<MultiChainName, string[]> = mapValues(

@@ -1,7 +1,7 @@
 import { Flex } from '@pancakeswap/uikit'
 import EBox from 'components/EBox'
 import Button from 'components/EButton'
-import { FLACK_ADDRESS } from 'config/constants/flack'
+import { FLACK_ADDRESS } from 'config/constants/kakarot'
 import { useTokenPriceBaseStableCoin } from 'hooks/useTokenPriceBaseStableCoin'
 
 import styled from 'styled-components'

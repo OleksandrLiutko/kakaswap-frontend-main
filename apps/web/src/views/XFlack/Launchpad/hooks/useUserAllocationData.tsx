@@ -1,7 +1,7 @@
 import { flackDividendsABI } from 'config/abi/IFlackDividends'
 import { flackLaunchpadABI } from 'config/abi/IFlackLaunchpad'
 import { xFlackTokenABI } from 'config/abi/IXFlackToken'
-import { DIVIDENDS_ADDRESS, LAUNCHPAD_ADDRESS, XFLACK_ADDRESS } from 'config/constants/flack'
+import { DIVIDENDS_ADDRESS, LAUNCHPAD_ADDRESS, XFLACK_ADDRESS } from 'config/constants/kakarot'
 import { useEffect, useState } from 'react'
 import { getContractResult, getFormattedUnits } from 'utils/flackHelper'
 import { useAccount, useChainId, useContractReads } from 'wagmi'

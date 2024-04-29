@@ -1,5 +1,5 @@
 import { xFlackTokenABI } from 'config/abi/IXFlackToken'
-import { XFLACK_ADDRESS } from 'config/constants/flack'
+import { XFLACK_ADDRESS } from 'config/constants/kakarot'
 import { useXFlackContract } from 'hooks/useContract1'
 import { useCallback, useEffect, useState } from 'react'
 import { getContractResult } from 'utils/flackHelper'

@@ -1,7 +1,7 @@
 import { flackDividendsABI } from 'config/abi/IFlackDividends'
 import { flackYieldBoosterABI } from 'config/abi/IFlackYieldBooster'
 import { xFlackTokenABI } from 'config/abi/IXFlackToken'
-import { XFLACK_ADDRESS, YIELD_BOOSTER_ADDRESS } from 'config/constants/flack'
+import { XFLACK_ADDRESS, YIELD_BOOSTER_ADDRESS } from 'config/constants/kakarot'
 import { useEffect, useState } from 'react'
 import { getContractResult, getFormattedUnits } from 'utils/flackHelper'
 import { useAccount, useChainId, useContractReads } from 'wagmi'

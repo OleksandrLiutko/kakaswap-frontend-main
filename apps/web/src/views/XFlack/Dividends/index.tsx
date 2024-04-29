@@ -4,7 +4,7 @@ import Page from 'views/Page'
 
 import { WETH9 } from '@pancakeswap/sdk'
 import { useTokenPriceBaseStableCoin } from 'hooks/useTokenPriceBaseStableCoin'
-import { FLACK_ADDRESS } from 'config/constants/flack'
+import { FLACK_ADDRESS } from 'config/constants/kakarot'
 import { useLpPrice } from 'hooks/useLpPirce'
 import { displayNumber } from 'utils/flackHelper'
 import { useActiveChainId } from 'hooks/useActiveChainId'

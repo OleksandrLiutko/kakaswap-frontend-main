@@ -1,7 +1,7 @@
 import useSWRImmutable from 'swr/immutable'
 import { useEffect, useState } from 'react'
 import { gql } from 'graphql-request'
-import { positionsSubgraphClient } from 'config/constants/flack'
+import { positionsSubgraphClient } from 'config/constants/kakarot'
 import { STABLE_PAIRS } from 'config/constants/stablePairs'
 
 const getHyperPoolsQuery = gql`

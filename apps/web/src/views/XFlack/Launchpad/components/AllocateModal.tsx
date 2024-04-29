@@ -9,7 +9,7 @@ import EButton from 'components/EButton'
 
 import { getParseUnits } from 'utils/flackHelper'
 import useCatchTxError from 'hooks/useCatchTxError'
-import { LAUNCHPAD_ADDRESS } from 'config/constants/flack'
+import { LAUNCHPAD_ADDRESS } from 'config/constants/kakarot'
 import { Handler } from '@pancakeswap/uikit/widgets/Modal/types'
 import { useAccount } from 'wagmi'
 import { useAllowanceUsage } from 'hooks/useAllowanceUsage'

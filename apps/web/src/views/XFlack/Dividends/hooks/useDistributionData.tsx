@@ -1,5 +1,5 @@
 import { flackDividendsABI } from 'config/abi/IFlackDividends'
-import { DIVIDENDS_ADDRESS, XFLACK_ADDRESS } from 'config/constants/flack'
+import { DIVIDENDS_ADDRESS, XFLACK_ADDRESS } from 'config/constants/kakarot'
 import { useEffect, useMemo, useState } from 'react'
 import { getContractResult, getFormattedUnits } from 'utils/flackHelper'
 import { useAccount, useChainId, useContractReads } from 'wagmi'

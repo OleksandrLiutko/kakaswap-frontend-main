@@ -14,7 +14,7 @@ import {
   ScanLink,
   Button,
 } from '@pancakeswap/uikit'
-import { FLACK_ADDRESS } from 'config/constants/flack'
+import { FLACK_ADDRESS } from 'config/constants/kakarot'
 import { WNATIVE } from '@pancakeswap/sdk'
 import { ChainId } from '@pancakeswap/chains'
 import { FetchStatus } from 'config/constants/types'

@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
 import { useDividendsContract, useXFlackContract } from 'hooks/useContract1'
 import { useAccount } from 'wagmi'
-import { DIVIDENDS_ADDRESS } from 'config/constants/flack'
+import { DIVIDENDS_ADDRESS } from 'config/constants/kakarot'
 
 const options = {}
 

@@ -1,7 +1,7 @@
 import useSWRImmutable from 'swr/immutable'
 import { useMemo } from 'react'
 import { gql } from 'graphql-request'
-import { positionsSubgraphClient } from 'config/constants/flack'
+import { positionsSubgraphClient } from 'config/constants/kakarot'
 import { stableSwapClient } from 'utils/graphql'
 import { STABLE_PAIRS } from 'config/constants/stablePairs'
 import { useStableSwapPairs } from 'state/swap/useStableSwapPairs'

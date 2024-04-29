@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { getContractResult } from 'utils/flackHelper'
 import { erc20ABI, useContractReads } from 'wagmi'
 import { WETH9 } from '@pancakeswap/sdk'
-import { FLACK_ADDRESS, XFLACK_ADDRESS } from 'config/constants/flack'
+import { FLACK_ADDRESS, XFLACK_ADDRESS } from 'config/constants/kakarot'
 import { getEthPrice } from './useETHPrice'
 import { useActiveChainId } from './useActiveChainId'
 

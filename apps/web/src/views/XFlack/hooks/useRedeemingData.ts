@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useAccount, useChainId, useContractReads } from 'wagmi'
 import { getContractResult, getFormattedUnits } from 'utils/flackHelper'
-import { XFLACK_ADDRESS } from 'config/constants/flack'
+import { XFLACK_ADDRESS } from 'config/constants/kakarot'
 import { xFlackTokenABI } from 'config/abi/IXFlackToken'
 
 interface RedeemInfo {

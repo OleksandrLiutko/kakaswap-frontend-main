@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useAccount, useChainId, useContractReads } from 'wagmi'
 import { getContractResult } from 'utils/flackHelper'
-import { XFLACK_ADDRESS } from 'config/constants/flack'
+import { XFLACK_ADDRESS } from 'config/constants/kakarot'
 import { xFlackTokenABI } from 'config/abi/IXFlackToken'
 import { DAY_IN_SECONDS } from '@pancakeswap/utils/getTimePeriods'
 

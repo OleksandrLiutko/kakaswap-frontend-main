@@ -1,6 +1,6 @@
 import { ChainId } from '@pancakeswap/chains'
 import { chainlinkOracleABI } from 'config/abi/chainlinkOracle'
-import { ETH_PRICE_FEED } from 'config/constants/flack'
+import { ETH_PRICE_FEED } from 'config/constants/kakarot'
 import { useEffect, useState } from 'react'
 import { getContractResult } from 'utils/flackHelper'
 import { publicClient } from 'utils/wagmi'

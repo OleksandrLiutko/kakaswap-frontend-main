@@ -16,7 +16,7 @@ import {
   DIVIDENDS_ADDRESS,
   LAUNCHPAD_ADDRESS,
   POSITION_HELPER_ADDRESS,
-} from 'config/constants/flack'
+} from 'config/constants/kakarot'
 
 import { useContract } from 'hooks/useContract'
 import { publicClient } from './wagmi'

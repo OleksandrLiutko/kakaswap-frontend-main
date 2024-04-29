@@ -1,7 +1,7 @@
 import useSWRImmutable from 'swr/immutable'
 import { useEffect, useMemo, useState } from 'react'
 import { gql } from 'graphql-request'
-import { positionsSubgraphClient } from 'config/constants/flack'
+import { positionsSubgraphClient } from 'config/constants/kakarot'
 import { FsNFTData } from 'views/Positions/hooks/useFsNFTCardData'
 
 const query = gql`

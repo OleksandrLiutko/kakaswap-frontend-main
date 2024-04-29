@@ -7,7 +7,7 @@ import {
   LAUNCHPAD_ADDRESS,
   XFLACK_ADDRESS,
   YIELD_BOOSTER_ADDRESS,
-} from 'config/constants/flack'
+} from 'config/constants/kakarot'
 import { flackTokenABI } from 'config/abi/IFlackToken'
 import { xFlackTokenABI } from 'config/abi/IXFlackToken'
 import { flackDividendsABI } from 'config/abi/IFlackDividends'

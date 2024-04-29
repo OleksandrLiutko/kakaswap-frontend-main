@@ -15,7 +15,7 @@
       "address": "0x14229c0930C9792B39ECB08028A2784A016935aC",
       "symbol": "WETH",
       "decimals": 18,
-      "chainId": 78717,
+      "chainId": 1802203764,
       "logoURI": "https://tokens-flack.netlify.app//images/symbol/weth.png"
     },
     {
@@ -23,7 +23,7 @@
       "address": "0x5775cbc16b43c249d2e28e6a751e40bc29f48a2b",
       "symbol": "USDC",
       "decimals": 6,
-      "chainId": 78717,
+      "chainId": 1802203764,
       "logoURI": "https://tokens-flack.netlify.app//images/symbol/usdc.png"
     },
     {
@@ -31,14 +31,14 @@
       "address": "0x1381851900a4b43397E5DF7f2e90eC5Be04fcB3A",
       "symbol": "USDT",
       "decimals": 18,
-      "chainId": 78717,
+      "chainId": 1802203764,
       "logoURI": "https://tokens-flack.netlify.app//images/symbol/usdt.png"
     },
     {
       "name": "Flack Token",
       "symbol": "Flack",
       "address": "0xAc0Ff6fa6e90c43C2249dC590741Ab5eF90d2e3b",
-      "chainId": 78717,
+      "chainId": 1802203764,
       "decimals": 18,
       "logoURI": "https://tokens-flack.netlify.app//images/symbol/flack.png"
     },

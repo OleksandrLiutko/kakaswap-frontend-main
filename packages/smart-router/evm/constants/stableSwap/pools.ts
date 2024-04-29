@@ -3,7 +3,7 @@ import { ChainId } from '@pancakeswap/chains'
 import { StableSwapPool } from './types'
 import { pools as bscPools } from './56'
 import { pools as bscTestnetPools } from './97'
-import { pools as blockspotPools } from './78717'
+import { pools as blockspotPools } from './1802203764'
 
 export type StableSwapPoolMap<TChainId extends number> = {
   [chainId in TChainId]: StableSwapPool[]

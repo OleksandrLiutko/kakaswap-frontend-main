@@ -199,7 +199,7 @@ export default function V2FormView({
       <RightContainer>
         <AutoColumn pt="12px" gap="24px">
           <DynamicSection disabled gap="12px" overflow="hidden">
-            <InfoBox message={t('Your position will appear here.')} icon={<img src="/logo.png" alt="logo" />} />
+            <InfoBox message={t('Your position will appear here.')} icon={<img src="/logo_kaka.png" alt="logo" />} />
             <RangeSelector
               getDecrementLower={mockFn}
               getIncrementLower={mockFn}

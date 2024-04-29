@@ -134,8 +134,8 @@ const LeftMenu = ({ menuItems, activeItem, activeSubItem }) => {
   return (
     <MenuContainer>
       <Flex justifyContent="space-between" p="20px">
-        <BrandImage src="/assets/brand.png" />
-        <MobileBrandImage src="/assets/mobile-brand.png" />
+        <BrandImage src="/assets/brand_kaka.png" />
+        <MobileBrandImage src="/assets/mobile-brand_kaka.png" />
         <MobileMenu>
           <NetworkSwitcher />
           <UserMenu />

@@ -143,7 +143,7 @@ export function LiquidityChartRangeInput({
   return (
     <AutoColumn gap="md" style={{ minHeight: "200px", width: "100%", marginBottom: "16px" }}>
       {isUninitialized ? (
-        <InfoBox message={t("Your position will appear here.")} icon={<img src="/logo.png" alt="logo" />} />
+        <InfoBox message={t("Your position will appear here.")} icon={<img src="/logo_kaka.png" alt="logo" />} />
       ) : isLoading ? (
         <InfoBox icon={<Loader size="40px" stroke={theme.colors.text} />} />
       ) : error ? (

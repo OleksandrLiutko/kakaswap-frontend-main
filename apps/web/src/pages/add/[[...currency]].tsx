@@ -35,25 +35,25 @@ const AddLiquidityPage = () => {
     tokenB: currencyB,
   })
 
-  const [selectorType, setSelectorType] = useState(SELECTOR_TYPE.FSNFT)
+  const [selectorType, setSelectorType] = useState(SELECTOR_TYPE.V2)
 
   const isStable = router.query.stable
   const isV2 = router.query.v2
 
   useEffect(() => {
-    if (isStable) setSelectorType(SELECTOR_TYPE.STABLE)
+    // if (isStable) setSelectorType(SELECTOR_TYPE.STABLE)
     if (isV2) setSelectorType(SELECTOR_TYPE.V2)
   }, [isStable, isV2])
 
-  useEffect(() => {
-    if (!currencyIdA || !currencyIdB) return
+  // useEffect(() => {
+  //   if (!currencyIdA || !currencyIdB) return
 
-    if (stableConfig.stableSwapConfig) {
-      handleStable()
-    } else if (selectorType === SELECTOR_TYPE.STABLE) {
-      handleSelector(SELECTOR_TYPE.V2)
-    }
-  }, [currencyIdA, currencyIdB, stableConfig.stableSwapConfig])
+  //   if (stableConfig.stableSwapConfig) {
+  //     handleStable()
+  //   } else if (selectorType === SELECTOR_TYPE.STABLE) {
+  //     handleSelector(SELECTOR_TYPE.V2)
+  //   }
+  // }, [currencyIdA, currencyIdB, stableConfig.stableSwapConfig])
 
   const handleRefresh = useCallback(() => {
     router.replace(
@@ -68,26 +68,26 @@ const AddLiquidityPage = () => {
     )
   }, [router, currencyIdA, currencyIdB])
 
-  const handleStable = useCallback(() => {
-    if (!stableConfig.stableSwapConfig) {
-      if (stablePairs && stablePairs.length > 0) {
-        const idA = currencyId(stablePairs[0].token0)
-        const idB = currencyId(stablePairs[0].token1)
-        if (!idA || !idB) return
-        setSelectorType(SELECTOR_TYPE.STABLE)
-        router.replace(
-          {
-            pathname: router.pathname,
-            query: {
-              currency: [idA, idB],
-            },
-          },
-          undefined,
-          { shallow: true },
-        )
-      }
-    }
-  }, [router, stableConfig, setSelectorType])
+  // const handleStable = useCallback(() => {
+  //   if (!stableConfig.stableSwapConfig) {
+  //     if (stablePairs && stablePairs.length > 0) {
+  //       const idA = currencyId(stablePairs[0].token0)
+  //       const idB = currencyId(stablePairs[0].token1)
+  //       if (!idA || !idB) return
+  //       setSelectorType(SELECTOR_TYPE.STABLE)
+  //       router.replace(
+  //         {
+  //           pathname: router.pathname,
+  //           query: {
+  //             currency: [idA, idB],
+  //           },
+  //         },
+  //         undefined,
+  //         { shallow: true },
+  //       )
+  //     }
+  //   }
+  // }, [router, stableConfig, setSelectorType])
 
   const handleSelector = useCallback(
     (_selectorType) => {
@@ -116,13 +116,13 @@ const AddLiquidityPage = () => {
         <EPageHeader pageName="Liquidity" />
 
         <Flex mt={16} flexWrap="wrap" style={{ gap: 12 }}>
-          <EButtonSm
+          {/* <EButtonSm
             style={{ minWidth: '100px' }}
             isActive={selectorType === SELECTOR_TYPE.FSNFT}
             onClick={() => handleSelector(SELECTOR_TYPE.FSNFT)}
           >
             fsNFT
-          </EButtonSm>
+          </EButtonSm> */}
           <EButtonSm
             style={{ minWidth: '100px' }}
             isActive={selectorType === SELECTOR_TYPE.V2}
@@ -137,7 +137,7 @@ const AddLiquidityPage = () => {
           >
             V3
           </EButtonSm>
-          <EButtonSm
+          {/* <EButtonSm
             style={{ minWidth: '100px' }}
             isActive={selectorType === SELECTOR_TYPE.STABLE}
             onClick={() => {
@@ -145,7 +145,7 @@ const AddLiquidityPage = () => {
             }}
           >
             Stable
-          </EButtonSm>
+          </EButtonSm> */}
         </Flex>
 
         <AddLiquidityV2FormProvider>

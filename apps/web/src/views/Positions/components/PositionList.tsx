@@ -53,10 +53,10 @@ export const StableContextProvider = (props: { pair: LPStablePair; account: stri
 }
 
 enum FILTER {
-  fsNFT = 0,
-  V2 = 1,
-  V3 = 2,
-  STABLE = 3,
+  // fsNFT = 0,
+  V2 = 0,
+  V3 = 1,
+  // STABLE = 3,
 }
 
 const hideClosePositionAtom = atomWithStorageWithErrorCatch('pcs:hide-close-position', false)
@@ -72,7 +72,7 @@ export default function PositionList() {
 
   const [onPresentNewPositionModal] = useModal(<NewPositionModal />)
 
-  const [selectedTypeIndex, setSelectedTypeIndex] = useState(FILTER.fsNFT)
+  const [selectedTypeIndex, setSelectedTypeIndex] = useState(FILTER.V2)
 
   const [searchKey, setSearchKey] = useState('')
 
@@ -89,9 +89,9 @@ export default function PositionList() {
 
   const { type } = router.query
   useEffect(() => {
-    if (Number(type) === 1) setSelectedTypeIndex(FILTER.STABLE)
-    if (Number(type) === 2) setSelectedTypeIndex(FILTER.V2)
-    if (Number(type) === 3) setSelectedTypeIndex(FILTER.V3)
+    // if (Number(type) === 1) setSelectedTypeIndex(FILTER.STABLE)
+    if (Number(type) === 0) setSelectedTypeIndex(FILTER.V2)
+    if (Number(type) === 1) setSelectedTypeIndex(FILTER.V3)
   }, [type])
 
   let v2PairsSection: null | JSX.Element[] = null
@@ -291,7 +291,7 @@ export default function PositionList() {
         </Text>
       )
     } else {
-      const sections = [filteredFsNFTSections, filteredV2Sections, filteredV3Sections, filteredStableSections]
+      const sections = [filteredFsNFTSections, filteredV2Sections] // , filteredV3Sections, filteredStableSections]
 
       resultSection = sections.filter((_, index) => selectedTypeIndex === index)
 
@@ -333,22 +333,22 @@ export default function PositionList() {
           onItemClick={(index) => setSelectedTypeIndex(index)}
           variant="primary"
         >
-          <ButtonMenuItem minWidth="80px">fsNFT</ButtonMenuItem>
+          {/* <ButtonMenuItem minWidth="80px">fsNFT</ButtonMenuItem> */}
           <ButtonMenuItem minWidth="80px">v2</ButtonMenuItem>
           <ButtonMenuItem minWidth="80px">v3</ButtonMenuItem>
-          <ButtonMenuItem minWidth="80px">StableSwap</ButtonMenuItem>
+          {/* <ButtonMenuItem minWidth="80px">StableSwap</ButtonMenuItem> */}
         </ButtonMenu>
 
-        <Flex flexGrow={1} justifyContent="end">
+        {/* <Flex flexGrow={1} justifyContent="end">
           <EButton handleClick={onPresentNewPositionModal}>New Position</EButton>
-        </Flex>
+        </Flex> */}
       </Flex>
 
       <ESearchBox value={searchKey} onChange={(e) => setSearchKey(e.target.value)} />
 
       <EBox style={{ width: '100%', gap: '8px', display: 'flex', flexDirection: 'column' }}>
-        {selectedTypeIndex === FILTER.fsNFT && <FsNFTCardHeader />}
-        {selectedTypeIndex === FILTER.STABLE && <StableCardTableHeader />}
+        {/* {selectedTypeIndex === FILTER.fsNFT && <FsNFTCardHeader />} */}
+        {/* {selectedTypeIndex === FILTER.STABLE && <StableCardTableHeader />} */}
         {selectedTypeIndex === FILTER.V2 && <V2CardTableHeader />}
         {selectedTypeIndex === FILTER.V3 && <V3CardTableHeader />}
         {mainSection}

@@ -294,13 +294,13 @@ export function UniversalAddLiquidity({
             </EBox>
           )}
         </AutoColumn>
-        {selectorType === SELECTOR_TYPE.STABLE && (
+        {/* {selectorType === SELECTOR_TYPE.STABLE && (
           <StableConfigContext.Provider value={stableConfig}>
             <AddStableLiquidity currencyA={baseCurrency} currencyB={quoteCurrency}>
               {(props) => <StableFormView {...props} stableLpFee={stableConfig?.stableSwapConfig?.stableLpFee} />}
             </AddStableLiquidity>
           </StableConfigContext.Provider>
-        )}
+        )} */}
         {selectorType === SELECTOR_TYPE.V3 && (
           <V3FormView
             feeAmount={feeAmount}
@@ -315,21 +315,21 @@ export function UniversalAddLiquidity({
             {(props) => <V2FormView {...props} />}
           </AddLiquidity>
         )}
-        {selectorType === SELECTOR_TYPE.FSNFT && (
+        {/* {selectorType === SELECTOR_TYPE.FSNFT && (
           <AddFSNftLiquidity currencyA={baseCurrency} currencyB={quoteCurrency}>
             {(props) => <FSNftFormView {...props} />}
           </AddFSNftLiquidity>
-        )}
+        )} */}
       </ResponsiveTwoColumns>
     </Box>
   )
 }
 
 const SELECTOR_TYPE_T = {
-  [SELECTOR_TYPE.STABLE]: <Trans>Add Stable Liquidity</Trans>,
+  // [SELECTOR_TYPE.STABLE]: <Trans>Add Stable Liquidity</Trans>,
   [SELECTOR_TYPE.V2]: <Trans>Add V2 Liquidity</Trans>,
   [SELECTOR_TYPE.V3]: <Trans>Add V3 Liquidity</Trans>,
-  [SELECTOR_TYPE.FSNFT]: <Trans>Add fsNFT Liquidity</Trans>,
+  // [SELECTOR_TYPE.FSNFT]: <Trans>Add fsNFT Liquidity</Trans>,
 } as const satisfies Record<SELECTOR_TYPE, JSX.Element>
 
 export function AddLiquidityV3Layout({

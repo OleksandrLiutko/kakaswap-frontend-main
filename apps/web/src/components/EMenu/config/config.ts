@@ -41,53 +41,53 @@ const config: (
       href: '/positions',
       showItemsOnMobile: true,
     },
-    {
-      label: t('HyperPools'),
-      href: '/hyperpools',
-      showItemsOnMobile: true,
-    },
-    {
-      label: t('xFlack'),
-      href: '/xflack',
-      showItemsOnMobile: true,
-      items: [
-        {
-          label: t('Dashboard'),
-          href: '/xflack',
-          showItemsOnMobile: true,
-        },
-        {
-          label: t('Dividends'),
-          href: '/xflack/dividends',
-          showItemsOnMobile: true,
-        },
-        {
-          label: t('Launchpad'),
-          href: '/xflack/launchpad',
-          showItemsOnMobile: true,
-        },
-        {
-          label: t('Yield Booster'),
-          href: '/xflack/booster',
-          showItemsOnMobile: true,
-        },
-      ],
-    },
-    {
-      label: t('Launchpad'),
-      href: '/launchpad',
-      showItemsOnMobile: true,
-    },
-    /* {
-      label: t('Gauge'),
-      href: '/gauge',
-      showItemsOnMobile: true,
-    }, */
-    {
-      label: t('Analytics'),
-      href: '/info',
-      showItemsOnMobile: true,
-    },
+    // {
+    //   label: t('HyperPools'),
+    //   href: '/hyperpools',
+    //   showItemsOnMobile: true,
+    // },
+    // {
+    //   label: t('xFlack'),
+    //   href: '/xflack',
+    //   showItemsOnMobile: true,
+    //   items: [
+    //     {
+    //       label: t('Dashboard'),
+    //       href: '/xflack',
+    //       showItemsOnMobile: true,
+    //     },
+    //     {
+    //       label: t('Dividends'),
+    //       href: '/xflack/dividends',
+    //       showItemsOnMobile: true,
+    //     },
+    //     {
+    //       label: t('Launchpad'),
+    //       href: '/xflack/launchpad',
+    //       showItemsOnMobile: true,
+    //     },
+    //     {
+    //       label: t('Yield Booster'),
+    //       href: '/xflack/booster',
+    //       showItemsOnMobile: true,
+    //     },
+    //   ],
+    // },
+    // {
+    //   label: t('Launchpad'),
+    //   href: '/launchpad',
+    //   showItemsOnMobile: true,
+    // },
+    // /* {
+    //   label: t('Gauge'),
+    //   href: '/gauge',
+    //   showItemsOnMobile: true,
+    // }, */
+    // {
+    //   label: t('Analytics'),
+    //   href: '/info',
+    //   showItemsOnMobile: true,
+    // },
   ].map((item) => addMenuItemSupported(item, chainId))
 
 export default config
